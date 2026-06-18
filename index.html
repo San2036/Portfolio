@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sudharsan R - Computer Science Engineering Student at Anna University.">
+    <title>Sudharsan R | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Sudharsan R.</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About & Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-up">Hello, I'm <span class="highlight">Sudharsan R</span></h1>
+                <p class="animate-up delay-1">Computer Science Engineering Student at Anna University</p>
+                <div class="hero-buttons animate-up delay-2">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-shape"></div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-container">
+                <h2 class="section-title fade-in">Profile & Skills</h2>
+                <div class="about-content fade-in delay-1">
+                    <div class="about-text">
+                        <p>Motivated and detail-oriented Computer Science engineering student with a strong foundation in programming and software development. Proficient in C, C++, and Java, with a solid understanding of Database Management Systems (DBMS). Skilled in full stack development, combining both front-end and back-end technologies to build responsive and user-friendly web applications. Eager to apply academic knowledge and technical skills in a real-world environment through an internship opportunity. Known for quick learning, problem-solving ability, and a collaborative approach to teamwork.</p>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-tag">C / C++</div>
+                        <div class="skill-tag">Java Programming</div>
+                        <div class="skill-tag">Data Structures</div>
+                        <div class="skill-tag">Full Stack Technologies</div>
+                        <div class="skill-tag">DBMS (SQL+)</div>
+                        <div class="skill-tag">React.js</div>
+                        <div class="skill-tag">Node.js / Express</div>
+                        <div class="skill-tag">Problem Solving</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-container">
+                <h2 class="section-title fade-in">Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card fade-in">
+                        <div class="project-image" style="background: linear-gradient(135deg, #4361ee 0%, #4cc9f0 100%);"></div>
+                        <div class="project-info">
+                            <h3>Cricket Fantasy</h3>
+                            <p><strong>Stack:</strong> React.js, Express.js, MongoDB, Node.js</p>
+                            <p>Developed a Full Stack cricket fantasy web application enabling users to create virtual teams, select players, and track match performances based on real/simulated data.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in delay-1">
+                        <div class="project-image" style="background: linear-gradient(135deg, #f72585 0%, #b5179e 100%);"></div>
+                        <div class="project-info">
+                            <h3>Student Management System</h3>
+                            <p><strong>Stack:</strong> HTML, CSS, JS, Oracle SQLplus</p>
+                            <p>Web-based system with CRUD operations on student records. Managed backend data using Oracle SQLplus queries, procedures, and triggers.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in delay-2">
+                        <div class="project-image" style="background: linear-gradient(135deg, #4895ef 0%, #3f37c9 100%);"></div>
+                        <div class="project-info">
+                            <h3>Expense Tracker</h3>
+                            <p><strong>Stack:</strong> Java, JDBC</p>
+                            <p>Java-based application integrated with JDBC for managing day-to-day expenses (adding, removing, calculating totals) with a user-convenient interface.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-image" style="background: linear-gradient(135deg, #0ba360 0%, #3cba92 100%);"></div>
+                        <div class="project-info">
+                            <h3>Tech Chatbot (GenAI)</h3>
+                            <p><strong>Stack:</strong> TF-IDF, Streamlit</p>
+                            <p>Developed a tech chat GenAI using TF-IDF and Streamlit for asking queries related to technologies in the software field with a user-friendly interface.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in delay-1">
+                        <div class="project-image" style="background: linear-gradient(135deg, #f8961e 0%, #f3722c 100%);"></div>
+                        <div class="project-info">
+                            <h3>Decentralized Agentic Federated Learning</h3>
+                            <p><strong>Stack:</strong> Python, Solidity, PyTorch, Streamlit</p>
+                            <p>Engineered a platform using blockchain and PyTorch with differential privacy and homomorphic encryption. Deployed Solidity smart contracts to manage global model state. Architected Trust and Healer agents to recover anomalous models, and built a Streamlit dashboard to visualize real-time training metrics and node health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="about" style="background-color: var(--card-bg);">
+            <div class="section-container">
+                <h2 class="section-title fade-in">Education</h2>
+                <div class="about-content fade-in delay-1" style="align-items: flex-start; text-align: left; gap: 1rem;">
+                    <div style="width: 100%; border-left: 4px solid var(--accent); padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--text-primary); font-size: 1.25rem;">B.E. Computer Science and Engineering</h3>
+                        <p style="color: var(--accent); font-weight: 600;">Anna University, M.I.T Campus</p>
+                        <p style="color: var(--text-secondary);">Expected Graduation: 2027 | CGPA: 8.7/10</p>
+                    </div>
+                    <div style="width: 100%; border-left: 4px solid var(--accent); padding-left: 1.5rem;">
+                        <h3 style="color: var(--text-primary); font-size: 1.25rem;">HSC & SSLC</h3>
+                        <p style="color: var(--accent); font-weight: 600;">MLM Mamallan Matriculation Higher Secondary School</p>
+                        <p style="color: var(--text-secondary);">HSC (2023): 97.3% | SSLC (2021): 100%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-container" style="text-align: center;">
+                <h2 class="section-title fade-in">Contact Me</h2>
+                <div class="contact-info fade-in delay-1" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 600;">
+                    <a href="tel:+919384145673" style="color: var(--text-primary); text-decoration: none; padding: 1rem 2rem; border-radius: 8px; background: var(--card-bg); box-shadow: var(--shadow-sm); transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-lg)'" onmouseout="this.style.transform='none'; this.style.boxShadow='var(--shadow-sm)'">📞 +91 9384145673</a>
+                    <a href="https://www.linkedin.com/in/sudharsan-rangarajan-37b9b4321/" target="_blank" style="color: var(--text-primary); text-decoration: none; padding: 1rem 2rem; border-radius: 8px; background: var(--card-bg); box-shadow: var(--shadow-sm); transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-lg)'" onmouseout="this.style.transform='none'; this.style.boxShadow='var(--shadow-sm)'">🔗 LinkedIn</a>
+                    <a href="https://github.com/San2036" target="_blank" style="color: var(--text-primary); text-decoration: none; padding: 1rem 2rem; border-radius: 8px; background: var(--card-bg); box-shadow: var(--shadow-sm); transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-lg)'" onmouseout="this.style.transform='none'; this.style.boxShadow='var(--shadow-sm)'">💻 GitHub (San2036)</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sudharsan R. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
